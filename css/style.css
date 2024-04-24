@@ -1,0 +1,35 @@
+/*
+Reglas CSS consta de 2 pasos
+
+1) el selector
+2) Bloque de declaraciones: {
+  atributo: valor;
+  atributo-de-mas-de-dos-palabras: otro-valor;
+}
+*/
+
+/* Selectores basicos
+1) Etiquetas -son elementos html
+2) Identificadores - atributo id -#
+3) Clases - atributo class
+*/
+
+p {
+  color: midnightblue;
+}
+
+/* dar estilos con id se coincidera un antipatron o mala practica*/
+#parrafo-dos {
+  background-color: skyblue;
+}
+
+/* Dar estilos con clases permite reutilizar nuestro codigo */
+
+.texto-32 {
+  font-size: 32px;
+}
+
+h1 {
+  color: red;
+  background-color: blanchedalmond;
+}
